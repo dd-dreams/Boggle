@@ -107,7 +107,7 @@ class StartMenu:
 
     # BUTTONS
     def handle_buttons(self):
-        # only possible i could find way to put buttons on Canvas widgets
+        # only possible way i could find to put buttons on Canvas widgets
         self.__background_canvas.create_window(70, 500, anchor=NW, window=self.__exit_button)
         self.__background_canvas.create_window(350, 500, anchor=NW, window=self.__start_button)
 
